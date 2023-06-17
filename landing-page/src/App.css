@@ -1,0 +1,98 @@
+/* App styles */
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 14px;
+  color: #999;
+}
+
+/* Contact section styles */
+.container {
+  margin-bottom: 40px;
+}
+
+.contact-separator {
+  margin: 20px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.my-photo {
+  width: 100px; /* Adjust the size as needed */
+  border-radius: 50%;
+}
+
+.contact-icons {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.contact-icons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px 20px; /* Adjust the spacing between icons */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-icon-item {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 30px; /* Adjust the icon size as needed */
+  transition: color 0.3s;
+}
+
+.contact-icon.hovered {
+  color: #ff7f50; /* Update with your desired hover color */
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact-list-item {
+  margin: 0 10px;
+}
+
+.contact-list-item a svg {
+  color: #007bff; /* Replace with your desired initial color */
+  transition: color 0.3s ease;
+}
+
+.contact-list-item a:hover svg {
+  color: #0056b3; /* Replace with your desired darker shade of blue */
+}
